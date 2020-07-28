@@ -1,0 +1,630 @@
+/* ---------------------------------------------------
+    Titulo
+----------------------------------------------------- */
+.container {
+    background: #007bff;
+    height: 100vh;
+    width: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+@media only screen and (min-width: 769px) {
+    .container {
+        background: #007bff;
+        height: 100vh;
+        width: 100vh;
+        overflow: hidden;
+        margin: 0;
+    }
+}
+
+#loginSistem .container{
+    background-color: #007bff;
+    margin: 0;
+}
+
+@media only screen and (min-width: 769px) {
+    #loginSistem .container{
+        background-color: #007bff;
+        margin: 0;
+    }
+}
+
+div .root2 {
+    background-color: #007bff;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+    div .root2 {
+        background-color: #007bff;
+        margin: 0%;
+        padding: 0%;
+        color: white;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.row #formLogin{
+    width: 80%;
+    height: 150px;
+    display: table;
+    margin: 20px auto;
+}
+
+@media only screen and (min-width: 769px) {
+    .row #formLogin{
+        width: 80%;
+        height: 150px;
+        display: table;
+        margin: 20px auto;
+    }
+}
+
+h2{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 0%;
+}
+
+@media only screen and (min-width: 769px) {
+    h2{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        padding-left: 0%;
+    }
+}
+/* ---------------------------------------------------
+    Input nome
+----------------------------------------------------- */
+
+.row1 {
+    margin: 0 0 2% 0;
+    padding-top: 13px;
+    left: 3%;
+    position: relative;
+}
+
+@media only screen and (min-width: 769px) {
+    .row1 {
+        margin: 0 0 2% 0;
+        padding-top: 13px;
+        left: 3%;
+        position: relative;
+    }
+}
+
+.form {
+    border-style: hidden;
+    margin: 0%;
+}
+
+@media only screen and (min-width: 769px) {
+    .form {
+        border-style: hidden;
+        margin: 0%;
+    }    
+}
+
+
+div #nome {
+    position: relative; 
+    width: 87%;
+}
+
+@media only screen and (min-width: 769px) {
+    div #nome {
+        position: relative; 
+        width: 90%;
+    }
+}
+
+#nome .form{
+    background: #007bff;
+    color: white;
+    border-style: hidden hidden solid hidden; 
+    box-sizing: content-box;
+    z-index: 2;
+    border-radius: 0%;
+}
+
+@media only screen and (min-width: 769px) {
+    #nome .form{
+        background: #007bff;
+        color: white;
+        border-style: hidden hidden solid hidden; 
+        box-sizing: content-box;
+        z-index: 2;
+        border-radius: 0%;
+    }
+}
+
+.row1 input{
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    min-width: 180px;
+    font-size: 20px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-appearance:none;
+    border-radius: 0;
+}
+
+@media only screen and (min-width: 769px) {
+    .row1 input{
+        border: 0;
+        border-bottom: 2px solid lightgrey;
+        outline: none;
+        min-width: 180px;
+        font-size: 20px;
+        transition: all .3s ease-out;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        -webkit-appearance:none;
+        border-radius: 0;
+    }
+}
+
+.row1 input:focus{
+    border-bottom: 2px solid white;
+}
+
+@media only screen and (min-width: 769px) {
+    .row1 input:focus{
+        border-bottom: 2px solid white;
+    }
+}
+
+.row1 input::placeholder{
+    color:transparent;
+}
+
+@media only screen and (min-width: 769px) {
+    .row1 input::placeholder{
+        color:transparent;
+    }
+}
+
+.row1 label{
+    pointer-events: none;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    margin-top: 14%;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+}
+
+@media only screen and (min-width: 769px) {
+    .row1 label{
+        pointer-events: none;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        margin-top: 4%;
+        transition: all .3s ease-out;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+    }
+}
+
+.row1 input:required:invalid + label{
+    color: red;
+}
+
+@media only screen and (min-width: 769px) {
+    .row1 input:required:invalid + label{
+        color: red;
+    }
+}
+
+.row1 input:focus:required:invalid{
+    border-bottom: 2px solid red;
+}
+
+@media only screen and (min-width: 769px) {
+    .row1 input:focus:required:invalid{
+        border-bottom: 2px solid red;
+    }
+}
+
+.row1 input:required:invalid + label:before{
+    content: '*';
+}
+
+@media only screen and (min-width: 769px) {
+    .row1 input:required:invalid + label:before{
+        content: '*';
+    }
+}
+
+.row1 input:focus + label,
+.row1 input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: white;
+}
+
+@media only screen and (min-width: 769px) {
+.row1 input:focus + label,
+.row1 input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: white;
+    }
+}
+  
+#nome .material-icons {
+    color: white;
+    vertical-align: middle;
+    transition: 0.5s; 
+}
+
+@media only screen and (min-width: 769px) {
+    #nome .material-icons {
+        color: white;
+        vertical-align: middle;
+        transition: 0.5s; 
+    }
+}
+
+
+
+/* ---------------------------------------------------
+    Input Senha
+----------------------------------------------------- */
+
+.row2 {
+    margin: 0 0 2% 0;
+    padding-top: 5%;
+    left: 3%;
+    position: relative;
+    padding-top: 13px;
+}
+
+@media only screen and (min-width: 769px) {
+    .row2 {
+        margin: 0 0 2% 0;
+        padding-top: 5%;
+        left: 3%;
+        position: relative;
+        padding-top: 13px;
+    }
+}
+
+.form-control {
+    border-style: hidden;
+    margin: 0%;
+}
+
+@media only screen and (min-width: 769px) {
+    .form-control {
+        border-style: hidden;
+        margin: 0%;
+    }
+}
+
+
+div #senha {
+    position: relative;
+    width: 87%;
+}
+
+@media only screen and (min-width: 769px) {
+    div #senha {
+        position: relative;
+        width: 90%;
+    }
+}
+
+#senha .form-control{
+    background: #007bff;
+    color: white;
+    border-style: hidden hidden solid hidden; 
+    box-sizing: content-box;
+    z-index: 2;
+    border-radius: 0%;
+}
+
+@media only screen and (min-width: 769px) {
+    #senha .form-control{
+        background: #007bff;
+        color: white;
+        border-style: hidden hidden solid hidden; 
+        box-sizing: content-box;
+        z-index: 2;
+        border-radius: 0%;
+    }
+}
+  
+.row2 input{
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    min-width: 180px;
+    font-size: 20px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-appearance:none;
+    border-radius: 0;
+}
+
+@media only screen and (min-width: 769px) {
+    .row2 input{
+        border: 0;
+        border-bottom: 2px solid lightgrey;
+        outline: none;
+        min-width: 180px;
+        font-size: 20px;
+        transition: all .3s ease-out;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        -webkit-appearance:none;
+        border-radius: 0;
+    }
+}
+
+.row2 input:focus{
+    border-bottom: 2px solid white;
+}
+
+@media only screen and (min-width: 769px) {
+    .row2 input:focus{
+        border-bottom: 2px solid white;
+    }
+}
+  
+.row2 input::placeholder{
+    color:transparent;
+}
+
+@media only screen and (min-width: 769px) {
+    .row2 input::placeholder{
+        color:transparent;
+    }
+}
+
+.row2 label{
+    pointer-events: none;
+    position: absolute;
+    top: -14px;
+    left: 0;
+    margin-top: 14%;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+}
+
+@media only screen and (min-width: 769px) {
+    .row2 label{
+        pointer-events: none;
+        position: absolute;
+        top: -14px;
+        left: 0;
+        margin-top: 4%;
+        transition: all .3s ease-out;
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+    }
+}
+
+.row2 input:required:invalid + label{
+    color: red;
+}
+
+@media only screen and (min-width: 769px) {
+    .row2 input:required:invalid + label{
+        color: red;
+    }
+}
+
+.row2 input:focus:required:invalid{
+    border-bottom: 2px solid red;
+}
+
+@media only screen and (min-width: 769px) {
+    .row2 input:focus:required:invalid{
+        border-bottom: 2px solid red;
+    }
+}
+
+.row2 input:required:invalid + label:before{
+    content: '*';
+}
+
+@media only screen and (min-width: 769px) {
+    .row2 input:required:invalid + label:before{
+        content: '*';
+    }
+}
+
+.row2 input:focus + label,
+.row2 input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: white;
+}
+
+@media only screen and (min-width: 769px) {
+    .row2 input:focus + label,
+.row2 input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: white;
+    }
+}
+
+#senha .material-icons {
+    color: white;
+    vertical-align: middle;
+    transition: 0.5s; 
+}
+
+@media only screen and (min-width: 769px) {
+    #senha .material-icons {
+        color: white;
+        vertical-align: middle;
+        transition: 0.5s; 
+    }
+}
+
+/* ---------------------------------------------------
+    Botão
+----------------------------------------------------- */
+
+div .row3 {
+    position: relative;
+    float: right;
+    left: 1%;
+}
+
+@media only screen and (min-width: 769px) {
+    div .row3 {
+        position: relative;
+        float: right;
+        left: -4%;
+    }
+}
+
+.btn #form-login{
+    text-align: center;
+    margin-top: 5%;
+    background: white;
+    color: #007bff;
+}
+
+@media only screen and (min-width: 769px) {
+    .btn #form-login{
+        text-align: center;
+        margin-top: 5%;
+        background: white;
+        color: #007bff;
+    }
+}
+
+.efeito {
+	border: none;
+    color: #007bff;
+	padding: 125%;
+	margin: 62,5%;
+	font-size: 100%;
+	line-height: 100%;
+	border-radius: 62,5%;
+	position: relative;
+	box-sizing: border-box;
+	cursor: pointer;
+    transition: all 400ms ease;
+}
+
+@media only screen and (min-width: 769px) {
+    .efeito {
+        border: none;
+        color: #007bff;
+        padding: 125%;
+        margin: 62,5%;
+        font-size: 100%;
+        line-height: 100%;
+        border-radius: 62,5%;
+        position: relative;
+        box-sizing: border-box;
+        cursor: pointer;
+        transition: all 400ms ease;
+    }    
+}
+
+
+.efeito-1 {
+    background: #007bff;
+    color: white;
+}
+
+@media only screen and (min-width: 769px) {
+    .efeito-1 {
+        background: #007bff;
+        color: white;
+    }
+}
+
+
+.efeito-1:before {
+	content: '';
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 0%;
+	height: 38px;
+    background: rgba(22, 3, 134, 0.3);
+	border-radius: 62,5%;
+    transition: all 2s ease;
+    color: white;
+}
+
+@media only screen and (min-width: 769px) {
+    .efeito-1:before {
+        content: '';
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 0%;
+        height: 38px;
+        background: rgba(22, 3, 134, 0.3);
+        border-radius: 62,5%;
+        transition: all 2s ease;
+        color: white;
+    }
+}
+
+
+.efeito-1:hover:before {
+    width: 100%;
+    color: white;
+}
+
+@media only screen and (min-width: 769px) {
+    .efeito-1:hover:before {
+        width: 100%;
+        color: white;
+    }
+}
+
+
+#form-login .efeito-1:hover:before{
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (min-width: 769px) {
+    #form-login .efeito-1:hover:before{
+        text-align: center;
+        color: white;
+    }
+}
+
+
+#form-login .material-icons {
+    color: #007bff;
+    vertical-align: middle;
+    position: relative;
+}
+
+@media only screen and (min-width: 769px) {
+    #form-login .material-icons {
+        color: #007bff;
+        vertical-align: middle;
+        position: relative;
+    }
+}

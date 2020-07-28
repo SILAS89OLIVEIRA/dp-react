@@ -1,0 +1,232 @@
+/* ---------------------------------------------------
+    FUNDO
+----------------------------------------------------- */
+.rowVendaEstoque{
+margin: 0;
+}
+
+.container2 {
+    background: white;
+    overflow: hidden;
+    margin: 0 0% 0 0%;
+}
+
+div .root3 {
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    align-items: center;
+}
+
+.cardgeral .bloco {
+    float: left;
+    width: 96%;
+    margin-left: 2%;
+    height: 100%;
+    margin-bottom: 2%;
+}
+
+@media only screen and (min-width: 769px) {
+    .cardgeral .bloco {
+        float: left;
+        width: 20%;
+        height: 300px;
+        margin-left: 0%;
+        margin-right: 1%;
+        position: relative;
+        left: 16%;
+    }
+}
+
+/* ---------------------------------------------------
+    CARD 1
+----------------------------------------------------- */
+
+
+div .card1 {
+    background-color: #20B2AA;
+    color: white;
+    border-radius: 0%;
+    position: relative;
+    padding: 4% 4% 4% 4%;
+}
+
+div .card1 .card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div .card1 .quantidade {
+    color: white;
+    font-size: 13px;
+}
+
+div .card1 .valorTotal {
+    color: white;
+    font-size: 13px;
+}
+
+div .card1 .periodo1 {
+    color: white;
+    font-size: 13px;
+}
+
+div .card1 .periodo2 {
+    color: white;
+    font-size: 13px;
+}
+
+
+#buttom1 .btn1 {
+    background-color: white;
+    color: #20B2AA;
+}
+
+/* ---------------------------------------------------
+    CARD 2
+----------------------------------------------------- */
+
+div .card2 {
+    background-color: #1E90FF;
+    color: white;
+    border-radius: 0%;
+    position: relative;
+    padding: 4% 4% 4% 4%;
+}
+
+div .card2 .card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div .card2 .quantidade {
+    color: white;
+    font-size: 13px;
+}
+
+div .card2 .valorTotal {
+    color: white;
+    font-size: 13px;
+}
+
+div .card2 .periodo1 {
+    color: white;
+    font-size: 13px;
+}
+
+div .card2 .periodo2 {
+    color: white;
+    font-size: 13px;
+}
+
+/* ---------------------------------------------------
+    CARD 3
+----------------------------------------------------- */
+
+div .card3 {
+    background-color: #32CD32;
+    color: white;
+    border-radius: 0%;
+    position: relative;
+    padding: 4% 4% 4% 4%;
+}
+
+div .card3 .card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div .card3 .quantidade {
+    color: white;
+    font-size: 13px;
+}
+
+div .card3 .valorTotal {
+    color: white;
+    font-size: 13px;
+}
+
+div .card3 .periodo1 {
+    color: white;
+    font-size: 13px;
+}
+
+div .card3 .periodo2 {
+    color: white;
+    font-size: 13px;
+}
+
+/* ---------------------------------------------------
+    CARD 4
+----------------------------------------------------- */
+
+div .card4 {
+    background: #FFA500;
+    color: white;
+    border-radius: 0%;
+    position: relative;
+    padding: 4% 4% 4% 4%;
+}
+
+p {
+    margin-bottom: 0%;
+}
+
+div .card4 .card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div .card4 .quantidade {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 0%;
+}
+
+div .card4 .valorTotal {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 0%;
+}
+
+div .card4 .periodo1 {
+    color: white;
+    font-size: 13px;
+}
+
+/* ---------------------------------------------------
+    BOTÃO
+----------------------------------------------------- */
+
+div .bloco .card1 button {
+    border-radius: 0%;
+    color: #20B2AA;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: hidden;
+}
+
+div .bloco .card2 button {
+    border-radius: 0%;
+    color: #1E90FF;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: hidden;
+}
+
+div .bloco .card3 button {
+    border-radius: 0%;
+    color: #32CD32;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: hidden;
+}
+
+div .bloco .card4 button {
+    border-radius: 0%;
+    color: #FFA500;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border: hidden;
+}
